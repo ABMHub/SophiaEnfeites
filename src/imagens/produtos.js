@@ -16,90 +16,105 @@ import cimento15 from './cimento/cimento (15).jpeg'
 
 export const produtos = [
     {
+        id: 1,
         tipo: 'pato',
         cor: 'branco',
         img: cimento1,
         preco: 2.0
     },
     {
+        id: 2,
         tipo: 'borboleta',
         cor: 'azul',
         img: cimento2,
         preco: 2.5
     },
     {
+        id: 3,
         tipo: 'coração',
         cor: 'laranja',
         img: cimento3,
         preco: 2.5
     },
     {
+        id: 4,
         tipo: 'coração',
         cor: 'amarelo',
         img: cimento4,
         preco: 2.5
     },
     {
+        id: 5,
         tipo: 'pato',
         cor: 'azul-cinza',
         img: cimento5,
         preco: 2.0
     },
     {
+        id: 6,
         tipo: 'pato',
         cor: 'verde',
         img: cimento6,
         preco: 2.0
     },
     {
+        id: 7,
         tipo: 'pato',
         cor: 'azul',
         img: cimento7,
         preco: 2.0
     },
     {
+        id: 8,
         tipo: 'coração',
         cor: 'vermelho',
         img: cimento8,
         preco: 2.5
     },
     {
+        id: 9,
         tipo: 'pato',
         cor: 'roxo',
         img: cimento9,
         preco: 2.0
     },
     {
+        id: 10,
         tipo: 'borboleta',
         cor: 'laranja',
         img: cimento10,
         preco: 2.5
     },
     {
+        id: 11,
         tipo: 'pato',
         cor: 'amarelo',
         img: cimento11,
         preco: 2.0
     },
     {
+        id: 12,
         tipo: 'caminhão',
         cor: 'azul',
         img: cimento12,
         preco: 2.5
     },
     {
+        id: 13,
         tipo: 'caminhão',
         cor: 'ciano',
         img: cimento13,
         preco: 2.5
     },
     {
+        id: 14,
         tipo: 'pato',
         cor: 'vermelho',
         img: cimento14,
         preco: 2.0
     },
     {
+        id: 15,
         tipo: 'borboleta',
         cor: 'azul e branco',
         img: cimento15,

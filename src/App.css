@@ -16,14 +16,31 @@ body {
 .listaProdutos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px){
+  .produto {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .produto {
+    width: 21%;
+  }
 }
 
 .produto {
   display: initial;
-  margin : 10px;
+  margin : 5px;
   background-color: rgb(255, 255, 255, 0.5);
   padding: 5px;
   border-radius: 10px;
+}
+
+.produto > img {
+  width: 100%;
 }
 
 .textoProduto {
