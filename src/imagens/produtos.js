@@ -20,104 +20,119 @@ export const produtos = [
         tipo: 'pato',
         cor: 'branco',
         img: cimento1,
-        preco: 2.0
+        preco: 2.0,
+        esgotado: true
     },
     {
         id: 2,
         tipo: 'borboleta',
         cor: 'azul',
         img: cimento2,
-        preco: 2.5
+        preco: 2.5,
+        esgotado: true
     },
     {
         id: 3,
         tipo: 'coração',
         cor: 'laranja',
         img: cimento3,
-        preco: 2.5
+        preco: 2.5,
+        esgotado: true
     },
     {
         id: 4,
         tipo: 'coração',
         cor: 'amarelo',
         img: cimento4,
-        preco: 2.5
+        preco: 2.5,
+        esgotado: true
     },
     {
         id: 5,
         tipo: 'pato',
         cor: 'azul-cinza',
         img: cimento5,
-        preco: 2.0
+        preco: 2.0,
+        esgotado: true
     },
     {
         id: 6,
         tipo: 'pato',
         cor: 'verde',
         img: cimento6,
-        preco: 2.0
+        preco: 2.0,
+        esgotado: true
     },
     {
         id: 7,
         tipo: 'pato',
         cor: 'azul',
         img: cimento7,
-        preco: 2.0
+        preco: 2.0,
+        esgotado: true
     },
     {
         id: 8,
         tipo: 'coração',
         cor: 'vermelho',
         img: cimento8,
-        preco: 2.5
+        preco: 2.5,
+        esgotado: true
     },
     {
         id: 9,
         tipo: 'pato',
         cor: 'roxo',
         img: cimento9,
-        preco: 2.0
+        preco: 2.0,
+        esgotado: true
     },
     {
         id: 10,
         tipo: 'borboleta',
         cor: 'laranja',
         img: cimento10,
-        preco: 2.5
+        preco: 2.5,
+        esgotado: true
     },
     {
         id: 11,
         tipo: 'pato',
         cor: 'amarelo',
         img: cimento11,
-        preco: 2.0
+        preco: 2.0,
+        esgotado: true
     },
     {
         id: 12,
         tipo: 'caminhão',
         cor: 'azul',
         img: cimento12,
-        preco: 2.5
+        preco: 2.5,
+        esgotado: true
     },
     {
         id: 13,
         tipo: 'caminhão',
         cor: 'ciano',
         img: cimento13,
-        preco: 2.5
+        preco: 2.5,
+        esgotado: true
     },
     {
         id: 14,
         tipo: 'pato',
         cor: 'vermelho',
         img: cimento14,
-        preco: 2.0
+        preco: 2.0,
+        esgotado: true
     },
     {
         id: 15,
         tipo: 'borboleta',
         cor: 'azul e branco',
         img: cimento15,
-        preco: 2.5
+        preco: 2.5,
+        esgotado: true
     },
 ]
