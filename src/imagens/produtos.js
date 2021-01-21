@@ -14,11 +14,11 @@ import cimento13 from './cimento/cimento (13).jpeg'
 import cimento14 from './cimento/cimento (14).jpeg'
 import cimento15 from './cimento/cimento (15).jpeg'
 
-export const produtos = [
+export const cimento = [
     {
         id: 1,
         tipo: 'pato',
-        cor: 'branco',
+        cor: ['branco'],
         img: cimento1,
         preco: 2.0,
         esgotado: true
@@ -26,7 +26,7 @@ export const produtos = [
     {
         id: 2,
         tipo: 'borboleta',
-        cor: 'azul',
+        cor: ['azul'],
         img: cimento2,
         preco: 2.5,
         esgotado: true
@@ -34,7 +34,7 @@ export const produtos = [
     {
         id: 3,
         tipo: 'coração',
-        cor: 'laranja',
+        cor: ['laranja'],
         img: cimento3,
         preco: 2.5,
         esgotado: true
@@ -42,7 +42,7 @@ export const produtos = [
     {
         id: 4,
         tipo: 'coração',
-        cor: 'amarelo',
+        cor: ['amarelo'],
         img: cimento4,
         preco: 2.5,
         esgotado: true
@@ -50,7 +50,7 @@ export const produtos = [
     {
         id: 5,
         tipo: 'pato',
-        cor: 'azul-cinza',
+        cor: ['azul', 'cinza'],
         img: cimento5,
         preco: 2.0,
         esgotado: true
@@ -58,7 +58,7 @@ export const produtos = [
     {
         id: 6,
         tipo: 'pato',
-        cor: 'verde',
+        cor: ['verde'],
         img: cimento6,
         preco: 2.0,
         esgotado: true
@@ -66,7 +66,7 @@ export const produtos = [
     {
         id: 7,
         tipo: 'pato',
-        cor: 'azul',
+        cor: ['azul'],
         img: cimento7,
         preco: 2.0,
         esgotado: true
@@ -74,7 +74,7 @@ export const produtos = [
     {
         id: 8,
         tipo: 'coração',
-        cor: 'vermelho',
+        cor: ['vermelho'],
         img: cimento8,
         preco: 2.5,
         esgotado: true
@@ -82,7 +82,7 @@ export const produtos = [
     {
         id: 9,
         tipo: 'pato',
-        cor: 'roxo',
+        cor: ['roxo'],
         img: cimento9,
         preco: 2.0,
         esgotado: true
@@ -90,7 +90,7 @@ export const produtos = [
     {
         id: 10,
         tipo: 'borboleta',
-        cor: 'laranja',
+        cor: ['laranja'],
         img: cimento10,
         preco: 2.5,
         esgotado: true
@@ -98,7 +98,7 @@ export const produtos = [
     {
         id: 11,
         tipo: 'pato',
-        cor: 'amarelo',
+        cor: ['amarelo'],
         img: cimento11,
         preco: 2.0,
         esgotado: true
@@ -106,7 +106,7 @@ export const produtos = [
     {
         id: 12,
         tipo: 'caminhão',
-        cor: 'azul',
+        cor: ['azul'],
         img: cimento12,
         preco: 2.5,
         esgotado: true
@@ -114,7 +114,7 @@ export const produtos = [
     {
         id: 13,
         tipo: 'caminhão',
-        cor: 'ciano',
+        cor: ['ciano'],
         img: cimento13,
         preco: 2.5,
         esgotado: true
@@ -122,7 +122,7 @@ export const produtos = [
     {
         id: 14,
         tipo: 'pato',
-        cor: 'vermelho',
+        cor: ['vermelho'],
         img: cimento14,
         preco: 2.0,
         esgotado: true
@@ -130,7 +130,7 @@ export const produtos = [
     {
         id: 15,
         tipo: 'borboleta',
-        cor: 'azul e branco',
+        cor: ['azul', 'branco'],
         img: cimento15,
         preco: 2.5,
         esgotado: true

@@ -3,22 +3,6 @@ body {
   font-family: 'lucida handwriting';
 }
 
-.titulo {
-  text-align: center;
-}
-
-.logo {
-  align-self: center;
-  display: flex;
-  justify-content: center;
-}
-
-.listaProdutos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 @media only screen and (max-width: 768px){
   .produto {
     width: 40%;
