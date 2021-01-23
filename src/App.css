@@ -2,3 +2,9 @@ body {
   background-color: rgb(202, 186, 152);
   font-family: 'lucida handwriting';
 }
+
+@media(min-width: 768px) {
+  body {
+    padding: 0 15%;
+  }
+}

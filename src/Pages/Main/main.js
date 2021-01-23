@@ -2,8 +2,12 @@ import logo from './../../SElogo.png'
 import Produto from './../../Components/Produto/produto'
 import {cimento} from './../../imagens/produtos'
 import {Logo, ListaProdutos, Titulo, MainPage} from './styles'
+import Pesquisa from './../../Components/Pesquisa/pesquisa'
+import {useState} from 'react'
 
 function Main () {
+  const [pesquisa, setPesquisa] = useState('')
+
   return (
     <MainPage>
       
@@ -15,11 +19,19 @@ function Main () {
         <h1>Sophia Enfeites, para arquitetos</h1>
       </Titulo>
 
+      <Pesquisa input={pesquisa} setInput={setPesquisa}/>
+
       <ListaProdutos>      
         {cimento.map((produto) => {
-          return (
-            <Produto data={produto} key={produto.id}/>
-          )
+          if(pesquisa === '')
+            return (
+              <Produto data={produto} key={produto.id}/>
+            )
+          else
+            return (
+              (produto.tipo + produto.cor.join(' ')).includes(pesquisa.toLowerCase()) &&
+                <Produto data={produto} key={produto.id}/>
+            )
         })}
       </ListaProdutos>
 
