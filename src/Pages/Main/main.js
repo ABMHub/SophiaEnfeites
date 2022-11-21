@@ -1,6 +1,6 @@
 import logo from './../../SElogo.png'
 import Produto from './../../Components/Produto/produto'
-import {cimento, colares} from './../../imagens/produtos'
+import {colares} from './../../imagens/produtos'
 import {Logo, ListaProdutos, Titulo, MainPage} from './styles'
 import Pesquisa from './../../Components/Pesquisa/pesquisa'
 import {useState} from 'react'
