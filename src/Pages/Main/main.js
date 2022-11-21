@@ -1,6 +1,6 @@
 import logo from './../../SElogo.png'
 import Produto from './../../Components/Produto/produto'
-import {cimento} from './../../imagens/produtos'
+import {cimento, colares} from './../../imagens/produtos'
 import {Logo, ListaProdutos, Titulo, MainPage} from './styles'
 import Pesquisa from './../../Components/Pesquisa/pesquisa'
 import {useState} from 'react'
@@ -22,7 +22,7 @@ function Main () {
       <Pesquisa input={pesquisa} setInput={setPesquisa}/>
 
       <ListaProdutos>      
-        {cimento.map((produto) => {
+        {colares.map((produto) => {
           if(pesquisa === '')
             return (
               <Produto data={produto} key={produto.id}/>

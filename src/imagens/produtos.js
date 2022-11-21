@@ -14,6 +14,13 @@ import cimento13 from './cimento/cimento (13).jpeg'
 import cimento14 from './cimento/cimento (14).jpeg'
 import cimento15 from './cimento/cimento (15).jpeg'
 
+import colar1 from './colares/colar (1).jpeg'
+import colar2 from './colares/colar (2).jpeg'
+import colar3 from './colares/colar (3).jpeg'
+import colar4 from './colares/colar (4).jpeg'
+import colar5 from './colares/colar (5).jpeg'
+import colar6 from './colares/colar (6).jpeg'
+
 export const cimento = [
     {
         id: 1,
@@ -134,5 +141,56 @@ export const cimento = [
         img: cimento15,
         preco: 2.5,
         esgotado: true
+    },
+]
+
+export const colares = [
+    {
+        id: 1,
+        tipo: 'colar',
+        cor: ['verde', 'amarelo'],
+        img: colar1,
+        preco: 8.0,
+        esgotado: false
+    },
+    {
+        id: 2,
+        tipo: 'colar',
+        cor: ['marrom', 'branco'],
+        img: colar2,
+        preco: 9.0,
+        esgotado: false
+    },
+    {
+        id: 3,
+        tipo: 'colar',
+        cor: ['verde', 'branco'],
+        img: colar3,
+        preco: 9.0,
+        esgotado: false
+    },
+    {
+        id: 4,
+        tipo: 'colar',
+        cor: ['colorido'],
+        img: colar4,
+        preco: 8.0,
+        esgotado: false
+    },
+    {
+        id: 5,
+        tipo: 'colar',
+        cor: ['branco', 'azul'],
+        img: colar5,
+        preco: 9.0,
+        esgotado: false
+    },
+    {
+        id: 6,
+        tipo: 'colar',
+        cor: ['preto'],
+        img: colar6,
+        preco: 8.0,
+        esgotado: false
     },
 ]
