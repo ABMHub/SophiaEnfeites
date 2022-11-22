@@ -1,7 +1,7 @@
-import logo from './../../SElogo.png'
+import logo from './../../beadssslogo.png'
 import Produto from './../../Components/Produto/produto'
 import {colares} from './../../imagens/produtos'
-import {Logo, ListaProdutos, Titulo, MainPage} from './styles'
+import {Logo, ListaProdutos, MainPage} from './styles'
 import Pesquisa from './../../Components/Pesquisa/pesquisa'
 import {useState} from 'react'
 
@@ -12,12 +12,12 @@ function Main () {
     <MainPage>
       
       <Logo>
-        <img src={logo} alt="logo da loja da sophia" width="100px" height="100px"/>
+        <img src={logo} alt="logo da loja da sophia" width="250px" height="250px"/>
       </Logo>
 
-      <Titulo>
+      {/* <Titulo>
         <h1>Sophia Enfeites, para arquitetos</h1>
-      </Titulo>
+      </Titulo> */}
 
       <Pesquisa input={pesquisa} setInput={setPesquisa}/>
 
@@ -29,7 +29,7 @@ function Main () {
             )
           else
             return (
-              (produto.tipo + produto.cor.join(' ')).includes(pesquisa.toLowerCase()) &&
+              (produto.tipo + produto.nome).includes(pesquisa.toLowerCase()) &&
                 <Produto data={produto} key={produto.id}/>
             )
         })}

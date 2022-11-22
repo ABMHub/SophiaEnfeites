@@ -20,6 +20,8 @@ import colar3 from './colares/colar (3).jpeg'
 import colar4 from './colares/colar (4).jpeg'
 import colar5 from './colares/colar (5).jpeg'
 import colar6 from './colares/colar (6).jpeg'
+import colar7 from './colares/colar (7).jpeg'
+import colar8 from './colares/colar (8).jpeg'
 
 export const cimento = [
     {
@@ -148,7 +150,7 @@ export const colares = [
     {
         id: 1,
         tipo: 'colar',
-        cor: ['verde', 'amarelo'],
+        nome: 'copavibes',
         img: colar1,
         preco: 8.0,
         esgotado: false
@@ -156,7 +158,7 @@ export const colares = [
     {
         id: 2,
         tipo: 'colar',
-        cor: ['marrom', 'branco'],
+        nome: 'pinkgrego',
         img: colar2,
         preco: 9.0,
         esgotado: false
@@ -164,7 +166,7 @@ export const colares = [
     {
         id: 3,
         tipo: 'colar',
-        cor: ['verde', 'branco'],
+        nome: 'greengrego',
         img: colar3,
         preco: 9.0,
         esgotado: false
@@ -172,7 +174,7 @@ export const colares = [
     {
         id: 4,
         tipo: 'colar',
-        cor: ['colorido'],
+        nome: 'afrobeads',
         img: colar4,
         preco: 8.0,
         esgotado: false
@@ -180,7 +182,7 @@ export const colares = [
     {
         id: 5,
         tipo: 'colar',
-        cor: ['branco', 'azul'],
+        nome: 'skygrego',
         img: colar5,
         preco: 9.0,
         esgotado: false
@@ -188,9 +190,25 @@ export const colares = [
     {
         id: 6,
         tipo: 'colar',
-        cor: ['preto'],
+        nome: 'blackcat',
         img: colar6,
         preco: 8.0,
+        esgotado: false
+    },
+    {
+        id: 7,
+        tipo: 'pulseira',
+        nome: 'copavibes',
+        img: colar7,
+        preco: 5.5,
+        esgotado: false
+    },
+    {
+        id: 8,
+        tipo: 'pulseira',
+        nome: 'colorlove',
+        img: colar8,
+        preco: 5.0,
         esgotado: false
     },
 ]

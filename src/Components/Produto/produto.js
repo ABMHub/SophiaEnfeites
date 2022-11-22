@@ -10,7 +10,7 @@ function Esgotado () {
 }
   
 function Produto (props) {
-  const {tipo, cor, img, esgotado, preco} = props.data
+  const {tipo, nome, img, esgotado, preco} = props.data
 
   return (
     <SpacingDiv>
@@ -23,7 +23,7 @@ function Produto (props) {
 
         <TextoProduto>
           <span style={{textTransform: "capitalize"}}>{tipo} </span>
-          {cor.join(' e ')} <br />
+          {nome} <br />
           R${preco.toFixed(2)}
         </TextoProduto>
 
