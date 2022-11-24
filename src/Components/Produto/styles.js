@@ -26,7 +26,7 @@ export const Overlay = styled.div`
 `
 
 export const ProdutoDiv = styled.div`
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: #F68623;
   border-radius: 10px;
 
   height: 100%;
@@ -52,6 +52,7 @@ export const ImgProd = styled.div`
 
 export const TextoProduto = styled.div`
   font-family: Arial, Helvetica, sans-serif;
+  text-wheight: 300;
   text-align: right;
   padding: 0 ${margin};
 `

@@ -22,6 +22,8 @@ import colar5 from './colares/colar (5).jpeg'
 import colar6 from './colares/colar (6).jpeg'
 import colar7 from './colares/colar (7).jpeg'
 import colar8 from './colares/colar (8).jpeg'
+import colar9 from './colares/colar (9).jpeg'
+import colar10 from './colares/colar (10).jpeg'
 
 export const cimento = [
     {
@@ -209,6 +211,22 @@ export const colares = [
         nome: 'colorlove',
         img: colar8,
         preco: 5.0,
+        esgotado: true
+    },
+    {
+        id: 9,
+        tipo: 'colar',
+        nome: 'rainbowbeads',
+        img: colar9,
+        preco: 12.0,
+        esgotado: false
+    },
+    {
+        id: 8,
+        tipo: 'pulseira',
+        nome: 'afribeads',
+        img: colar10,
+        preco: 6.0,
         esgotado: false
     },
 ]
